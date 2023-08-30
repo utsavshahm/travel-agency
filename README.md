@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Ascend : Travel to Infinite 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the GitHub repository for our Travel Agency Website project : Ascend! This project was bootstrapped using `create-react-app` and features a dynamic and responsive travel agency website built with React.js. The website incorporates styled components for seamless styling and utilizes `react-router-dom` for smooth navigation between pages. The homepage also boasts an attractive image slider created using `react-slideshow-image`.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### Dynamic Pages
 
-### `npm start`
+The website is built with React.js, utilizing the power of components to create a dynamic user experience.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Styled Components
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The styling is done using styled components, allowing for better organization and encapsulation of styles.
 
-### `npm test`
+### Smooth Navigation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`react-router-dom` is used for routing, ensuring a smooth transition between different pages of the website.
 
-### `npm run build`
+### Image Slider
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The homepage features an eye-catching image slider created using `react-slideshow-image`, showcasing the best travel destinations.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To set up the project locally, follow these steps:
 
-### `npm run eject`
+1. Clone the repository: `git clone https://github.com/utsavshahm/travel-agency.git`
+2. Navigate to the project directory: `cd travel-agency`
+3. Install dependencies: `npm install`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. After installing the dependencies, start the development server: `npm start`
+2. Open your web browser and go to `http://localhost:3000` to see the website in action.
+3. Explore different pages using the navigation links and enjoy the image slider on the homepage.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Folder Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The project structure is organized as follows:
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- `public/`: Contains static assets like the HTML template, images, etc.
+- `src/components/`: Houses reusable components used throughout the application.
+- `App.js`: The root component where routing is set up.
+- `index.js`: The entry point of the application.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Dependencies
 
-### Code Splitting
+Major dependencies used in this project include:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- `react`
+- `react-dom`
+- `react-router-dom`
+- `styled-components`
+- `react-slideshow-image`
 
-### Analyzing the Bundle Size
+Check the `package.json` file for a complete list of dependencies.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributing
 
-### Making a Progressive Web App
+Contributions are welcome! If you find any issues or have suggestions, feel free to open an issue or create a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
 
-### Advanced Configuration
+This project is licensed under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
